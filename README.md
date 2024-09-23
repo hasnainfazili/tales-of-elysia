@@ -81,7 +81,7 @@ For more details on the mechanics, story, and design, check out the full [Game D
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Tales-of-Elysia.git
+   git clone https://github.com/your-username/tales-of-elysia.git
    ```
 
 2. Open the project in Unity:
