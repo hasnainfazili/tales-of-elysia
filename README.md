@@ -30,7 +30,14 @@ The game provides a nuanced, empathetic depiction of these disorders while offer
 
 ---
 
-## **Gameplay**
+## **Gameplay**![ADHD Pre anxious](https://github.com/user-attachments/assets/70bddf49-c093-42bc-8f21-1d42c670b38f)
+![ADHD Pre anxious](https://github.com/user-attachments/assets/bf60f54a-3e91-4997-ab52-391f7668fe2e)
+![Post Anxious](https://github.com/user-attachments/assets/045a3aa9-e15f-4eb3-ad05-9fa5dc2ba019)
+![Post Anxious 2](https://github.com/user-attachments/assets/710a8c1c-7a5b-4d3d-8940-df4489b5fde1)
+![Normal State](https://github.com/user-attachments/assets/c178bdb4-c05d-49ca-b15c-cee0e258d07b)
+![Campfire](https://github.com/user-attachments/assets/99e54817-fca5-4d34-a436-13b5c3373581)
+![ADHD](https://github.com/user-attachments/assets/a48a6240-0540-4260-a9c8-9a88992f5c72)
+![ADHD State Triggered](https://github.com/user-attachments/assets/6438ca13-f7cc-4aaa-976f-61a951ef1f23)
 
 *Tales of Elysia* is structured around the Hero’s Journey, focusing on Elysia’s quest to achieve her dreams despite the obstacles presented by her mental health. Key gameplay elements include:
 
