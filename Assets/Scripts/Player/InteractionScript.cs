@@ -1,0 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class InteractionScript : MonoBehaviour
+{
+    [SerializeField] float interactRange = 5f;
+
+    void Update()
+    {
+        if(BreathingQTE.instance.isActive || DialogueManager.GetInstance().dialogueIsPlaying || GameManager.instance.Paused)
+        {
+            return;
+        }
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            EventsManager.instance.miscEvents.QuestLogToggled();
+        }
+        if(Input.GetKeyDown(KeyCode.E)) 
+        {
+            IInteractable interactable = GetInteractableObject();
+            if(interactable != null) interactable.Interact(transform);
+        }
+    }
+
+    public IInteractable GetInteractableObject(){
+        List<IInteractable> interactableList = new List<IInteractable>();
+        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+        foreach(Collider collider in colliderArray){
+            if(collider.TryGetComponent(out IInteractable interactable))
+            {
+                interactableList.Add(interactable);
+            }
+        }
+        IInteractable closestInteractable = null;
+        foreach(IInteractable interactable in interactableList){
+            if(closestInteractable == null){
+                closestInteractable = interactable;
+            } else {
+                if(Vector3.Distance(transform.position, interactable.GetInteractableTransform().transform.position) < Vector3.Distance(transform.position, closestInteractable.GetInteractableTransform().transform.position))
+                closestInteractable = interactable;
+            }
+        }
+        return closestInteractable;
+    }
+
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5bd561ce8b45a4cb40c9e1fc35fecb, type: 3}
+  m_Name: Begin your journey
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Begin your journey
+  displayName: Begin your Journey
+  questStepPrefabs:
+  - {fileID: 6956076050731224255, guid: c27d28f19cc663546bbf191b4022c82c, type: 3}
+  - {fileID: 7541652820348622699, guid: 6b5cccdd32f4c4f4ca50f73818b55a75, type: 3}
+  - {fileID: 3330776933015547480, guid: cf2d5b3be14c11748b2f7cf50f923aa2, type: 3}
+  - {fileID: 7967636815508680000, guid: 0e7cfc977528c524a826df74d4913394, type: 3}
+  description: Leave the house

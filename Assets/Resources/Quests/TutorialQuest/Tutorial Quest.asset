@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5bd561ce8b45a4cb40c9e1fc35fecb, type: 3}
+  m_Name: Tutorial Quest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Tutorial Quest
+  displayName: Tutorial
+  questStepPrefabs:
+  - {fileID: 8946243863160379431, guid: 6dad67481ba44454285fe9b10d9a7e04, type: 3}
+  - {fileID: 5720853388547032179, guid: 7e944f4d54987c74a9d64c237aae4e82, type: 3}
+  - {fileID: 5720853388547032179, guid: 230a0dfc6c8ae5c4fb6f0bf4e130537b, type: 3}
+  - {fileID: 3402829239446678000, guid: a27afbb4c3242d349987b3ede054ac04, type: 3}
+  description: Tis' a tutorial
